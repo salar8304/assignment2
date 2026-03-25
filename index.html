@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Gallery | Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement-bar">
+        <span>Seen our new collection yet? <a href="javascript:void(0)">GO ↗</a></span>
+    </div>
+
+    <header class="navbar">
+        <div class="logo">Shoes Gallery</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="javascript:void(0)">Men</a></li>
+                <li><a href="javascript:void(0)">Women</a></li>
+                <li><a href="javascript:void(0)">Kids</a></li>
+                <li><a href="javascript:void(0)">Brands</a></li>
+                <li><a href="javascript:void(0)">Sale</a></li>
+            </ul>
+        </nav>
+        <a href="javascript:void(0)" class="cart-link">
+            <span>Cart</span>
+            <span class="cart-icon">🛒</span>
+        </a>
+    </header>
+
+    <div class="main-layout">
+        <aside class="sidebar">
+            <div class="filter-group">
+                <h3>Sort by:</h3>
+                <label class="sort-option"><input type="radio" name="sort"> Price Low to High</label>
+                <label class="sort-option"><input type="radio" name="sort"> Price High to Low</label>
+                <label class="sort-option"><input type="radio" name="sort"> Product name A - Z</label>
+                <label class="sort-option"><input type="radio" name="sort"> Product name Z - A</label>
+            </div>
+            
+            <div class="filter-links">
+                <button class="filter-btn">Brands</button>
+                <button class="filter-btn">Gender</button>
+                <button class="filter-btn">Sizes</button>
+                <button class="filter-btn">Colour</button>
+                <button class="filter-btn">Price</button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section id="popular">
+                <div class="section-header">
+                    <h2>Most popular</h2>
+                    <a href="#all-shoes" class="see-more">SEE MORE →</a>
+                </div>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/forum-low-og.png" alt="Adidas Forum"></div>
+                        <div class="card-footer">
+                            <h3>Forum low og 🔥</h3>
+                            <p>Adidas Originals | Men</p>
+                            <p class="price">$79.90</p>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/gel-quantum-360-6-utility.png" alt="Asics Gel"></div>
+                        <div class="card-footer">
+                            <h3>Gel quantum 360 utility 🔥</h3>
+                            <p>Asics | Men</p>
+                            <p class="price">$44.90</p>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/327.png" alt="NB 327"></div>
+                        <div class="card-footer">
+                            <h3>327 🔥</h3>
+                            <p>New Balance | Men</p>
+                            <p class="price">$64.90</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="all-shoes">
+                <div class="section-header">
+                    <h2>All our shoes</h2>
+                    <span class="results-count">1032 result(s)</span>
+                </div>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/forum-low-og.png" alt="Adidas"></div>
+                        <div class="card-footer"><h3>Forum low og 🔥</h3><p>Adidas Originals | Men</p><p class="price">$79.90</p></div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/gel-quantum-360-6-utility.png" alt="Asics"></div>
+                        <div class="card-footer"><h3>Gel quantum 360 utility 🔥</h3><p>Asics | Men</p><p class="price">$44.90</p></div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/327.png" alt="NB"></div>
+                        <div class="card-footer"><h3>327 🔥</h3><p>New Balance | Men</p><p class="price">$64.90</p></div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/air-vapormax-2021-fk.png" alt="Nike"></div>
+                        <div class="card-footer"><h3>Air vapormax 2021 FK</h3><p>Nike | Men</p><p class="price">$59.90</p></div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/rs-z-lth.png" alt="Puma RS"></div>
+                        <div class="card-footer"><h3>Rs-Z LTH</h3><p>Puma | Men</p><p class="price">$49.90</p></div>
+                    </article>
+                    <article class="product-card">
+                        <a href="javascript:void(0)" class="main-card-link"></a>
+                        <button class="heart-btn" onclick="this.classList.toggle('active')">❤</button>
+                        <div class="image-wrapper"><img src="https://makerslab.em-lyon.com/dww/data/products/mayze-classic.png" alt="Puma Mayze"></div>
+                        <div class="card-footer"><h3>Mayze classic</h3><p>Puma | Women</p><p class="price">$44.90</p></div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
