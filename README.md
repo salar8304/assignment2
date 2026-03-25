@@ -58,3 +58,5 @@ Development process :
        Hard-coded all 6 unique products (Adidas, Asics, NB, Nike, Puma x2) 
        ensuring prices like "$44.90" and "🔥" emojis were perfectly 
        synchronized with your official product list.
+
+       Link to chat: https://gemini.google.com/share/de7c6f8d0a2b
