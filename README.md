@@ -60,3 +60,5 @@ Development process :
        synchronized with your official product list.
 
        Link to chat: https://gemini.google.com/share/de7c6f8d0a2b
+
+       Link to figma: https://www.figma.com/design/omjBdbb9SQCrsAE3vL3WYr/salar.hajisadeghkashi-s-team-library?node-id=3317-2&t=NiIoifh7DbT5BkC1-1
